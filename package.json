@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "js-parse-dot-props",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse a.b.c = 1 into {a: {b: {c: 1}}}",
   "files": [
     "lib/**/*"
