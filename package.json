@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "js-parse-dot-props",
+  "version": "1.0.0",
+  "description": "Parse a.b.c = 1 into {a: {b: {c: 1}}}",
+  "files": [
+    "lib/**/*"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwmorrin/js-parse-dot-props.git"
+  },
+  "keywords": [
+    "parse"
+  ],
+  "author": "David Morrin <dwmorrin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwmorrin/js-parse-dot-props/issues"
+  },
+  "homepage": "https://github.com/dwmorrin/js-parse-dot-props#readme",
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "js-parse-key-value": "^1.0.3"
+  }
+}
