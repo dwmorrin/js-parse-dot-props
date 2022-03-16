@@ -1,14 +1,10 @@
-# Parse Key Value List
+# Parse Dot Props
 
-## Key Value List
-
-Defining "key value list" as a list of .
-
-A list can look like
+Parses a string of key/value pairs where the keys can be written in dot notation like
 
 `a.value = 1 a.type = "example"`
 
-and becomes
+which will become
 
 ```js
 { a: { value: 1, type: "example" } }
